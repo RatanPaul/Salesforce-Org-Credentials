@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Getting Started Extension's Popup</title>
+      <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+      <style type="text/css">
+         .custwidth{
+         width: 150px;
+         height: 25px;
+         }
+         body{
+         font-size: 12px;  
+         }
+      </style>
+   </head>
+   <body>
+      <div style="overflow: auto;max-height: 500px;">
+        <table>
+          <tr>
+            <td>
+              <button id="addNewid" type="button" style="margin: 5px;" class="btn btn-info btn-xs" data-toggle="collapse" data-target="#addNew">Add New</button>
+            </td>
+            <td>
+              <button type="button" id="exportDataBtnId" style="margin: 5px;" class="btn btn-info btn-xs" data-toggle="collapse" data-target="#exportData">Export</button>
+            </td>
+            <td>
+              <button type="button" id="importDataBtnId" style="margin: 5px;" class="btn btn-info btn-xs" data-toggle="collapse" data-target="#importData">Import</button>
+            </td>
+            <td>
+              <button type="button" id="deleteAllId" style="margin: 5px;" class="btn btn-info btn-xs">Delete All</button>
+            </td>
+          </tr>
+        </table>
+         
+         
+         
+         <div id="addNew" class="collapse">
+            <table class="table">
+               <tr>
+                  <td colspan="2"><input type="text" class="form-control input-sm"  placeholder=" Username " id="usernameid"/></td>
+               </tr>
+               <tr>
+                  <td colspan="2"><input type="password" class="form-control input-sm"  placeholder=" Password " id="passwordid"/></td>
+               </tr>
+               <tr>
+                  <td>
+                     <select id="orgTypeId" class="form-control input-sm" >
+                        <option value="https://login.salesforce.com/">Production</option>
+                        <option value="https://test.salesforce.com/">Sandbox</option>
+                     </select>
+                  </td>
+                  <td>
+                     <button id="savebtn" type="button" class="btn btn-primary btn-sm">&nbsp;Save&nbsp;</button>
+                  </td>
+               </tr>
+               </tr>
+            </table>
+         </div>
+         <div id="exportData" class="collapse">
+           <textarea id="exportDataid" rows="16" style="width: 100%">
+             
+           </textarea>
+         </div>
+         <div id="importData" class="collapse">
+           <textarea id="importDataid" rows="16" style="width: 100%">
+             
+           </textarea>
+           <button id="importsave" type="button" class="btn btn-primary btn-sm">&nbsp;Save&nbsp;</button>
+         </div>
+         <table id="recordTable" class="table table-condensed " style="margin-bottom: 0px;">
+            <tbody></tbody>
+         </table>
+      </div>
+      <script src="/js/jquery.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+      <script src="/js/main.js"></script>
+   </body>
+</html>
