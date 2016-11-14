@@ -7,6 +7,5 @@ Screenshot:
 
 [![1-2.png](https://s17.postimg.org/8n92klg33/1_2.png)](https://postimg.org/image/o8qe4js17/)
 
-[![1-3.png](https://s21.postimg.org/gh7qd0mnb/1_3.png)](https://postimg.org/image/a3in9rhr7/)
 
 Inspired By Extension [Force.com LOGINS for Chrome](https://chrome.google.com/webstore/detail/forcecom-logins/ldjbglicecgnpkpdhpbogkednmmbebec)
