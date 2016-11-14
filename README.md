@@ -3,7 +3,7 @@ Salesforce Org Credentials is just a simple tool to store salesforce org credent
 
 Screenshot: 
 
-[Salesforce-Org-Credentials](https://chrome.google.com/webstore/detail/salesforce-org-credential/bnoghienpbnblhpmoeamfgjjcjikagkh)
+Download here: [Salesforce-Org-Credentials](https://chrome.google.com/webstore/detail/salesforce-org-credential/bnoghienpbnblhpmoeamfgjjcjikagkh)
 
 
 [![1-1.png](https://s11.postimg.org/kw3vk7heb/1_1.png)](https://postimg.org/image/qka6b3lqn/)
